@@ -11,7 +11,7 @@ import re
 import urllib.parse
 
 # ------------------- 2. Load Dataset -------------------
-df = pd.read_csv('data/malicious_phish.csv')  # Adjust the file name if needed
+df = pd.read_csv('data/phishing.csv')  # Adjust the file name if needed
 df = df[['url', 'type']].dropna()
 
 print("Initial class distribution:")
